@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ニックネーム入力</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>ようこそ！</h1>
+    <p>ニックネームを入力してください</p>
+    <form method="post">
+        <input type="text" name="nickname" placeholder="ニックネーム" required>
+        <button type="submit">次へ</button>
+    </form>
+</body>
+</html>
